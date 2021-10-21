@@ -21,7 +21,7 @@ services:
       MYSQL_ROOT_PASSWORD: 'db_root_password'
       MYSQL_USER: 'db_ID'
       MYSQL_PASSWORD: 'db_PW'
-      MYSQL_DATABASE: 'db_name'
+      MYSQL_DATABASE: 'db_NM'
     volumes:
       - ./data:/var/lib/mysql
       - /etc/timezone:/etc/timezone:ro
